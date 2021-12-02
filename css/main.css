@@ -7,6 +7,7 @@ Document
 /**
 Use a better box model (opinionated).
 */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 *,
 ::before,
 ::after {
@@ -274,6 +275,14 @@ html {
           box-sizing: inherit;
 }
 
+body {
+  background-color: var(--pirmary-background-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  font-size: 700;
+  letter-spacing: 0.03em;
+}
+
 h1,
 h2,
 h3,
@@ -321,13 +330,6 @@ img {
   --pirmary-background-color: #ffff;
   --secondary-background-color: #f5f4fa;
   --third-background-color: #2f303a;
-}
-
-body {
-  background-color: var(--pirmary-background-color);
-  color: var(--primary-text-color);
-  font-family: roboto, sans-serif;
-  letter-spacing: 0.03em;
 }
 
 /*header*/
